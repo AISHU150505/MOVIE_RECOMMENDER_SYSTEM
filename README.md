@@ -4,7 +4,7 @@ A data mining project that implements a movie recommendation engine using the **
 
 ---
 
-## 📌 Project Overview
+## Project Overview
 
 This project addresses the challenge of overwhelming movie choices by providing intelligent, data-driven, and personalized recommendations. It explores:
 
@@ -16,7 +16,7 @@ This project addresses the challenge of overwhelming movie choices by providing 
 
 ---
 
-## 🎯 Objectives
+## Objectives
 
 - 🧹 Clean and preprocess large-scale movie rating data  
 - 🔍 Extract frequent itemsets (L1, L2, L3) with Apriori  
@@ -26,7 +26,7 @@ This project addresses the challenge of overwhelming movie choices by providing 
 
 ---
 
-## 🧱 Modules
+##  Modules
 
 1. **Data Preprocessing** – Clean missing values, remove duplicates, and prepare ratings  
 2. **Binary Matrix Generation** – Convert ratings into a user-movie binary sparse matrix  
@@ -38,7 +38,7 @@ This project addresses the challenge of overwhelming movie choices by providing 
 
 ---
 
-## 📊 Dataset
+## Dataset
 
 - **Netflix Prize Dataset** (~2GB)
 - 100M+ ratings | 480K+ users | 17,770 movies
@@ -51,7 +51,7 @@ Files used:
 
 ---
 
-### 📥 Dataset Access
+### Dataset Access
 
 Due to GitHub’s file size restrictions, the full Netflix Prize dataset used in this project is **not included** in this repository.
 
@@ -86,7 +86,7 @@ DATA_MINING_PROJECT/
 
 ---
 
-## 📈 Metrics Used
+## Metrics Used
 
 - **Support** – Frequency of itemset in dataset  
 - **Confidence** – Likelihood of B given A  
@@ -95,7 +95,7 @@ DATA_MINING_PROJECT/
 
 ---
 
-## 📦 Output Files
+## Output Files
 
 - `data.csv` – Cleaned and preprocessed ratings  
 - `merged.csv` – Ratings + movie titles merged  
@@ -104,7 +104,7 @@ DATA_MINING_PROJECT/
 
 ---
 
-## 🧪 Results
+## Results
 
 - Improved movie recommendations based on mined patterns
 - Hybrid system enhanced personalization and scalability
@@ -112,7 +112,7 @@ DATA_MINING_PROJECT/
 
 ---
 
-## ✅ Conclusion
+## Conclusion
 
 The system accurately predicts user preferences by mining frequent movie patterns and combining them with collaborative scores. This dual-strategy approach significantly enhances recommendation quality and system efficiency.
 
@@ -120,8 +120,8 @@ The system accurately predicts user preferences by mining frequent movie pattern
 
 ## 👩‍💻 Authors
 
-- Aishwarya S (2022103037)  
-- Sujana S (2022103607)  
+- Aishwarya S 
+- Sujana S  
 Department of Computer Science and Engineering, College of Engineering, Guindy, Anna University  
 
 ---
@@ -129,7 +129,7 @@ Department of Computer Science and Engineering, College of Engineering, Guindy, 
 
 ---
 
-## 📐 Accuracy Metrics Explained
+## Accuracy Metrics Explained
 
 Understanding the effectiveness of the generated association rules and recommendations requires rigorous evaluation using multiple metrics:
 
