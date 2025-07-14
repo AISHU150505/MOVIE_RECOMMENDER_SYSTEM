@@ -126,6 +126,9 @@ Department of Computer Science and Engineering, College of Engineering, Guindy, 
 
 ---
 
+
+---
+
 ## 📐 Accuracy Metrics Explained
 
 Understanding the effectiveness of the generated association rules and recommendations requires rigorous evaluation using multiple metrics:
@@ -133,41 +136,31 @@ Understanding the effectiveness of the generated association rules and recommend
 ### 1. **Support**
 - Indicates how frequently an itemset appears in the dataset.
 - Helps in identifying popular item combinations.
-- Formula:  
-  \[
-  \text{Support}(A \Rightarrow B) = \frac{\text{Transactions containing both A and B}}{\text{Total Transactions}}
-  \]
+- **Formula**:  
+  **Support(A ⇒ B)** = (Number of transactions containing both A and B) ÷ (Total number of transactions)
 
 ### 2. **Confidence**
 - Measures the likelihood of item B being purchased/viewed when item A is.
 - High confidence implies strong association between A and B.
-- Formula:  
-  \[
-  \text{Confidence}(A \Rightarrow B) = \frac{\text{Support}(A \cup B)}{\text{Support}(A)}
-  \]
+- **Formula**:  
+  **Confidence(A ⇒ B)** = Support(A ∪ B) ÷ Support(A)
 
 ### 3. **Lift**
 - Quantifies the strength of a rule over random co-occurrence.
 - Lift > 1 implies a positive association between A and B.
-- Formula:  
-  \[
-  \text{Lift}(A \Rightarrow B) = \frac{\text{Confidence}(A \Rightarrow B)}{\text{Support}(B)}
-  \]
+- **Formula**:  
+  **Lift(A ⇒ B)** = Confidence(A ⇒ B) ÷ Support(B)
 
 ### 4. **Conviction**
 - Measures the degree of implication of A ⇒ B.
 - A higher conviction value means stronger implication.
-- Formula:  
-  \[
-  \text{Conviction}(A \Rightarrow B) = \frac{1 - \text{Support}(B)}{1 - \text{Confidence}(A \Rightarrow B)}
-  \]
+- **Formula**:  
+  **Conviction(A ⇒ B)** = (1 − Support(B)) ÷ (1 − Confidence(A ⇒ B))
 
 ### 5. **Leverage**
 - Measures the difference between observed and expected frequency of A and B appearing together.
 - Leverage = 0 means no correlation; > 0 implies a positive correlation.
-- Formula:  
-  \[
-  \text{Leverage}(A, B) = \text{Support}(A \cup B) - \text{Support}(A) \times \text{Support}(B)
-  \]
+- **Formula**:  
+  **Leverage(A, B)** = Support(A ∪ B) − (Support(A) × Support(B))
 
 These metrics were crucial in filtering and selecting only the strongest and most meaningful rules for our final recommendation engine.
