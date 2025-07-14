@@ -1,0 +1,15 @@
+support,itemsets
+0.43207981580967,frozenset({'8 Man'})
+0.10923509849066257,frozenset({'Isle of Man TT 2004 Review'})
+0.3607060629316961,"frozenset({""Paula Abdul's Get Up & Dance""})"
+0.0283960092095165,frozenset({'Sick'})
+0.051419800460475826,frozenset({'Dinosaur Planet'})
+0.007930416986441546,frozenset({'Character'})
+0.03351240726528524,frozenset({'The Rise and Fall of ECW'})
+0.0028140189306728063,"frozenset({'Isle of Man TT 2004 Review', ""Paula Abdul's Get Up & Dance""})"
+0.012023535431056536,"frozenset({""Paula Abdul's Get Up & Dance"", '8 Man'})"
+0.003581478639038117,"frozenset({'Dinosaur Planet', ""Paula Abdul's Get Up & Dance""})"
+0.0015349194167306216,"frozenset({'Isle of Man TT 2004 Review', 'Dinosaur Planet'})"
+0.0015349194167306216,"frozenset({'Dinosaur Planet', '8 Man'})"
+0.0015349194167306216,"frozenset({'Isle of Man TT 2004 Review', 'Dinosaur Planet', ""Paula Abdul's Get Up & Dance""})"
+0.0015349194167306216,"frozenset({'The Rise and Fall of ECW', ""Paula Abdul's Get Up & Dance""})"
