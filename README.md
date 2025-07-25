@@ -1,4 +1,4 @@
-# 🎬 Movie Recommendation System using Apriori Algorithm
+# Movie Recommendation System using Apriori Algorithm
 
 A data mining project that implements a movie recommendation engine using the **Apriori algorithm** and **Association Rule Mining (ARM)**. The system analyzes user-movie interactions from the Netflix Prize Dataset to suggest personalized movie recommendations, with enhancements through a hybrid model that combines **Collaborative Filtering** and **Apriori-based rules**.
 
@@ -18,11 +18,11 @@ This project addresses the challenge of overwhelming movie choices by providing 
 
 ## Objectives
 
-- 🧹 Clean and preprocess large-scale movie rating data  
-- 🔍 Extract frequent itemsets (L1, L2, L3) with Apriori  
-- 📊 Generate association rules based on support, confidence, and lift  
-- 🎥 Recommend relevant movies based on user history  
-- ♻️ Build a hybrid recommender combining Apriori and Collaborative Filtering  
+- Clean and preprocess large-scale movie rating data 🧹
+- Extract frequent itemsets (L1, L2, L3) with Apriori 🔍 
+- Generate association rules based on support, confidence, and lift 📊
+- Recommend relevant movies based on user history 🎥
+- Build a hybrid recommender combining Apriori and Collaborative Filtering ♻️
 
 ---
 
@@ -69,7 +69,7 @@ Once downloaded, place the following files inside a `Dataset/` directory in the 
 
 ---
 
-### 🛠 File Organization Tip
+### File Organization 
 
 ```
 DATA_MINING_PROJECT/
@@ -118,17 +118,6 @@ The system accurately predicts user preferences by mining frequent movie pattern
 
 ---
 
-## 👩‍💻 Authors
-
-- Aishwarya S 
-- Sujana S  
-Department of Computer Science and Engineering, College of Engineering, Guindy, Anna University  
-
----
-
-
----
-
 ## Accuracy Metrics Explained
 
 Understanding the effectiveness of the generated association rules and recommendations requires rigorous evaluation using multiple metrics:
@@ -164,3 +153,13 @@ Understanding the effectiveness of the generated association rules and recommend
   **Leverage(A, B)** = Support(A ∪ B) − (Support(A) × Support(B))
 
 These metrics were crucial in filtering and selecting only the strongest and most meaningful rules for our final recommendation engine.
+---
+
+
+## Authors
+
+- Aishwarya S 
+- Sujana S  
+Department of Computer Science and Engineering, College of Engineering, Guindy, Anna University  
+
+---
